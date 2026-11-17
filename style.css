@@ -1,0 +1,150 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  background-color: whitesmoke;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+header {
+  background-color: #2029a8;
+  padding: 25px 15px;
+  color: white;
+  text-align: center;
+}
+
+nav {
+  background-color: #161663;
+  padding: 15px 10px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 5px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+nav a:hover {
+  color: #fde047;
+}
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #123c69;
+  border-bottom: 2px solid #123c69;
+  padding-bottom: 8px;
+}
+
+p {
+  text-align: justify;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+}
+th, td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+th {
+  background-color: #123c69;
+  color: white;
+}
+
+input, select, textarea, button {
+  padding: 10px;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+input[type=submit] {
+  background: #123c69;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  background: #2563eb;
+}
+
+footer {
+  background-color: #161663;
+  padding: 25px;
+  text-align: center;
+  color: white;
+}
+
+#beranda {
+  background-color: #dbeafe;
+  padding: 35px 20px;
+  border-radius: 15px;
+  text-align: center;
+}
+#tentang, #kontak, #data, #layanan {
+  background-color: white;
+  padding: 25px;
+  border-radius: 12px;
+}
+#kotak {
+  background-color: aliceblue;
+  border-radius: 12px;
+  padding: 25px;
+}
+
+.kotak {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+}
+
+@media (min-width: 700px) {
+  .kotak {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+}
+
+.materi {
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.tombol {
+  display: inline-block;
+  background-color: #123c68;
+  padding: 12px 20px;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+.kaki {
+  text-align: center;
+}
